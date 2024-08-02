@@ -10,8 +10,8 @@ app.use(express.json())
 let db
 connectToDb((err) => {
   if(!err) {
-    app.listen(3000, () => {
-      console.log('app listening on port 3000')
+    app.listen(3001, () => {
+      console.log('app listening on port 3001')
     })
     db = getDb()
   }
@@ -41,8 +41,6 @@ app.get('/vans_collection', (req, res) => {
 
 app.get('/vans_collection/:id', (req, res) => {
 
-
-  
 });
 
 

@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb')
 
  module.exports = {
     connectToDb: (cb) => { // we are passing in the callback(cb) function we want to fire after we connect the database
-        MongoClient.connect('mongodb://localhost:27017/Vans_Database')
+        MongoClient.connect('mongodb://localhost:27017/Kambuzuma_Vans')
         .then((client) => {
             dbConnection = client.db()
             return cb()
