@@ -40,14 +40,32 @@ app.post('./vans_collection', (req, res) => {
 
 // using delete elements
 
-app.delete('./van_collection/:id', (req, res) => {
+app.delete('./vans_collection/:id', (req, res) => {
 
 
 });
 
 // using patch elements
 
-app.patch('./van_collection/:id', (req, res) => {
+app.patch('./vans_collection/:id', (req, res) => {
 
+  let updates = req.body
+
+  if (ObjectId.isValid(req.params.id)) {
+
+    db.collection('vans_collection')
+
+    .updateOne({_id:ObjectId(req.params.id)}, {$set: updates})
+
+    .then(result => {
+      res.status(200).json(result)
+    })
+
+    .catch(err => {
+      res.status(500).json({error: 'Could not update the document'})
+    })    
+  } else {
+    res.status(500).json({error: 'Not a valid doc id'})
+  }
 
 });
