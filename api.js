@@ -23,14 +23,33 @@ app.get('/vans_collection', (req, res) => {
 });
 
 
-// get element by id
+// get Element by id
 
 app.get('/vans_collection/:id', (req, res) => {
+
+
+  if (ObjectId.isValid(req.params.id)) {
+     
+    db.collection('vans_collection')
+.findOne({_id: new ObjectId(req.params.id)})
+.then(doc => {
+ res.status(200).json(doc)
+})
+
+.catch (err => {
+ res.status(500).json({error: 'Could not fetch the documents'})
+})
+
+ } else {
+res.status(500).json({error : 'Not a valid id'})
+
+ }
 
 
   
 });
 
+// End get element by id///////////////////////////////////////////////
 
 // using post 
 
