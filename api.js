@@ -1,7 +1,21 @@
 const express = require('express');
+const { ObjectId } = require('mongodb')
+const { connectToDb, getDb } = require('./insertData')
 
 const app = express();
 app.use(express.json())
+
+
+//now l am connecting to the database
+let db
+connectToDb((err) => {
+  if(!err) {
+    app.listen(3000, () => {
+      console.log('app listening on port 3000')
+    })
+    db = getDb()
+  }
+})
 
 // routes handles, so if l get a request handler on 3000 port then we are going to have a get handler request.
 app.get('/vans_collection', (req, res) => {
