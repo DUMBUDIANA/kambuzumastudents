@@ -23,7 +23,7 @@ app.get('/vans_collection', (req, res) => {
 });
 
 
-// get element by id
+// get Element by id
 
 app.get('/vans_collection/:id', (req, res) => {
 
@@ -49,6 +49,7 @@ res.status(500).json({error : 'Not a valid id'})
   
 });
 
+// End get element by id///////////////////////////////////////////////
 
 // using post 
 
