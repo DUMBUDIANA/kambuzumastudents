@@ -1,0 +1,1001 @@
+
+body{
+  font-family: "Inter";
+}
+
+
+
+
+.cards--width{
+  width: 660px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 247, 237, 1);
+  
+}
+
+.cards{
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #000;
+}
+
+.cards a{
+  color: #000;
+}
+
+.top-buttons{
+  align-self: start;
+  margin: 40px 0px 20px 42px;
+}
+
+.top-buttons h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin: 12px;
+}
+
+.top-buttons button{
+  margin: 10px 12px;
+  width: 104px;
+  height: 37px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 234, 208, 1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top-buttons button.link-filter{
+  background: none;
+  border: none;
+  color:rgba(77, 77, 77, 1);
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* .top-buttons a{
+  text-decoration: underline;
+  color: rgba(77, 77, 77, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0px 10px 30px;
+} */
+
+.top-buttons button.simple:hover{
+  background-color: rgba(225, 118, 84, 1);
+  color: white;
+  
+}
+
+.top-buttons button.simple.active{
+  background-color: rgba(225, 118, 84, 1);
+  color: white;
+  
+}
+
+.top-buttons button.rugged:hover{
+  background-color: rgba(17, 94, 89, 1);
+  color: white;
+}
+
+.top-buttons button.rugged.active{
+  background-color: rgba(17, 94, 89, 1);
+  color: white;
+}
+
+.top-buttons button.luxury:hover{
+  background-color: rgba(22, 22, 22, 1);
+  color: white;
+}
+
+.top-buttons button.luxury.active{
+  background-color: rgba(22, 22, 22, 1);
+  color: white;
+}
+
+
+
+
+
+/* Card structure */
+
+.images{
+  /* margin: 15px; */
+  width: 250px;
+  height: 250px;
+  border-radius: 7px;
+}
+
+
+
+
+.allcars .type-price{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.allcars .type-price p{
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.button a{
+  text-decoration: none;
+ font-size: 18px;
+ color:white;
+
+}
+
+
+
+
+
+.allcars .button-perday{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 9px;
+}
+
+.allcars .button-perday .button{
+  width: 92px;
+    height: 40px;
+    display:flex;
+  align-items: center;
+  justify-content: center;
+   border-radius: 5px;
+}
+
+
+.allcars .button .perday p{
+ font-size: 12px;
+ 
+   
+}
+
+.cardvans--container{
+  padding-bottom: 28px;
+}
+
+/* van details page */
+
+.allcars--2{
+  background-color: rgba(255, 247, 237, 1);
+  padding: 20px ;
+}
+
+.allcars--2  h2,
+.allcars--2  p{
+  margin: 20px 0;
+}
+
+.allcars--2 p .bold{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button2  {
+  width: 85px;
+  height: 33px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+.button2 a,
+.button3 a{
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+}
+
+.button3{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background-color: rgba(255, 140, 56, 1);
+
+  border-radius: 5px;
+}
+
+.description{
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.back{
+  text-decoration: underline;
+  color: rgba(32, 31, 29, 1);
+  font-size: 16px;
+ 
+}
+
+.back span{
+  margin: 0 10px;
+}
+
+.detail-image{
+   width: 100%;
+  /* height: 20vh; */
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+/* Banner.js */
+.home-container {
+  background-image: url(./Images/image\ 54.png);
+  height: 54vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8C38;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 35px;
+  padding: 10px 0px;
+}
+
+.section-divide3 {
+  padding: 0px 9px;
+}
+
+/*  */
+
+.Header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 112px;
+  align-items: center;
+  width: 660.15px; 
+  background-color: rgba(255, 247, 237, 1);
+  padding: 0px 20px;
+}
+
+.Header-main a{
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 5px;
+}
+
+.Header-main .logo{
+  width: 145px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.main-section {
+  max-width: 660px;
+  margin: 40px auto;
+  background-color: white;
+}
+
+
+.text-spacing {
+  margin-bottom: 20px;
+}
+
+nav  > a:hover{
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+nav  > a.active{
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* About.js */
+
+.about-page-container{
+  background-color: rgba(255, 247, 237, 1);
+  
+}
+
+.about-image {
+  width: 100%;
+}
+
+.about-page-content {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.about-page-content h1{
+  margin: 14px 0px;
+}
+
+.about-page-cta {
+  background-color: #FFCC8D;
+  height: 27vh;
+  margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.link-button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 7px;
+  position: relative;
+  top: 37px;
+}
+
+
+/* Footer */
+.footer {
+  background-color:#252525;
+  color: white;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+  width: 660px;
+}
+
+.footer2 {
+  background-color:#252525;
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* host styling  */
+.foot {
+  margin-top: 20px;
+  background-color:#252525;
+  color: white;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+form input{
+  margin:10px;
+  border-radius: 5px;
+}
+
+
+
+.link-Host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 35px;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+
+.host--h1{
+    font-size: 30px;
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.hostTwo--h1 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.hostTwo--h2 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+input{
+  width: 100%;
+  padding: 8px 20px;
+}
+
+.link-HostTwo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8C38;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 35px;
+  padding: 10px 0px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  width: 100%;
+ cursor: pointer;
+}
+
+.HostTwo--p{
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.HostTwo--span {
+  color: rgba(255, 140, 56, 1);
+}
+
+.foot {
+  margin-top: 70px;
+  background-color:#252525;
+  color: white;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Income section btns */
+
+.header-dashboard {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.btn-4 {
+  border: none;
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  color: #000;
+}
+
+.btn-4 a {
+  color: #000;
+}
+
+.links-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+/* Reviews */
+
+.review-text {
+  font-size: small;
+  color: #4D4D4D;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.text-inside {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* host income  */
+
+.mian {
+  padding: 0 20px;
+  background-color: #FFF7ED;
+  width: 100%;
+
+}
+
+.more-img {
+  margin-top: 30px;
+}
+
+
+.ini-h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.p-more {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -15px;
+}
+
+.un-span {
+  text-decoration: underline;
+  font-weight: 200;
+}
+
+.graph-img {
+  margin: 36px 0;
+  width: 100%;
+}
+
+.transctions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricelist {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+} 
+
+.price-more {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  margin-bottom:20px;
+  border-radius: 5px;
+} 
+
+
+.trans-h4 {
+  font-size: 27px;
+  margin-bottom: 30px;
+
+}
+
+
+
+
+/* ******************Hostmap**************** */
+
+
+form {
+  height: 236px;
+}
+.host--container{
+  width: 100%;
+}
+
+
+.welcome--container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 20px 20px;
+  background-color: #FFEAD0;
+}
+
+
+.welcome--container .income--last{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.income--last .bold--underline{
+font-weight: 600;
+text-decoration: underline;
+
+}
+
+.welcome--container .point--two p{
+font-size: 45px;
+font-weight: 900;
+}
+
+
+.review--score{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 16vh;
+  background-color: #FFDDB2;
+}
+
+.review--score .stars{
+display: flex;
+justify-content: space-between;
+width: 33%;
+align-items: center;
+}
+
+.stars .review--bold{
+  
+  font-size: 21px;
+  font-weight: 900;
+
+
+}
+
+.img--score{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+  .img--score p{
+    font-size: 21px;
+  }
+  
+
+ .img--score .bold{
+  padding-left: 4px;
+  font-size: 21px;
+  font-weight: 900;
+ }
+
+.review--score .img--score{
+
+ display: flex;
+
+}
+
+.img--score img{
+  height: 18px;
+  object-fit: cover;
+}
+
+
+.your--listed--vans{
+  padding: 0px 20px 20px 20px;
+  background-color: #FFF7ED;
+ 
+}
+
+.your--listed--vans .listedvans--bold{
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.your--listed--vans .view--more{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.your--listed--vans .view--more .view--all--vans{
+
+  cursor:pointer;
+
+}
+
+
+.edit--vans  .img--type--day img{
+object-fit: cover;
+  height: 65px;
+  border-radius: 5px;
+}
+
+.edit--vans  .img--type--day{
+  display: flex;
+  align-items: center;
+}
+
+ .type--day .price--day{
+  display: flex;
+}
+
+.all--container .edit--vans{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 15px 20px;
+  background-color: #FFFFFF;
+  margin-bottom: 12px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.img--type--day .type--day{
+  padding-left: 12px;
+}
+
+.type--day .type--bold{
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.rev{
+  margin: auto;
+}
+.header-dashboard{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.scorey{
+  font-weight: bolder;
+  margin-top: 40px;
+}
+.the-stars{
+  margin-top: 20px;
+}
+.grey{
+  color: grey;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.first-word{
+  font-weight: bolder;
+  color: black;
+}
+hr{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+/* ******************EndHostmap************* */
+
+/* van details */
+
+
+.details-vans{
+  background-color: #FFF7ED;
+}
+
+/* login */
+.Host-page-container .signup-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+
+.day {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 597px;
+  margin: 20px 30px;
+
+ 
+}
+
+.vani {
+    max-width: 27%;
+    object-fit: cover;
+    border-radius: 7px;
+    padding-right: 20px;
+}
+
+.vans--more{
+  width: 100%;
+  height: 59vh;
+  overflow-y: auto;
+  padding: 20px
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} 
+
+
+/* media query */
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 575px) {
+
+
+  /* homepage  */
+
+ 
+  .home-container {
+    height: 77vh;
+}
+
+    .Header-main {
+        height: 109px;
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 0px;
+    }
+	
+	    .footer {
+        background-color: #252525;
+        color: white;
+        padding: 25px 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Header-main .logo {
+      width: 115px;
+      height: 25px;
+      object-fit: contain;
+  }
+
+  .Header-main {
+    height: 86px;
+    margin-top: -38px;
+}
+
+.text-spacing {
+  margin-bottom: 28px;
+  font-size: 30px;
+}
+
+/* about page  */
+
+.about-page-content h1 {
+  margin: 13px 12px;
+  font-size: 20px;
+  /* width: 82%; */
+}
+
+.about-page-content {
+  padding: 0 17px;
+  font-size: 6px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+
+.about-page-content h1 {
+  margin: 12px 0;
+  font-size: 22px;
+  /* width: 82%; */
+}
+
+.about-p {
+  font-size: 12px;
+}
+
+
+.about-h {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.about-page-cta {
+  background-color: #FFCC8D;
+  height: 18vh;
+  margin: 16px;
+  padding: 13px 20px;
+  border-radius: 5px;
+}
+
+/* form  */
+
+input {
+  width: 94%;
+  padding: 8px 20px;
+}
+
+form {
+  height: 300px;
+}
+
+
+.hostTwo--h1 {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  margin-top: 67px;
+}
+
+.link-HostTwo {
+  margin: auto;
+  width: 93%;
+  margin-top: 9px;
+}
+
+/* dashbord  */
+
+.cards--width {
+  width: 100%;
+}
+
+.review--score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trans-h4 {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.p-more {
+  font-size: 18px;
+  margin-top: -4px;
+}
+
+/* vans  */
+
+.cards {
+  width: 65%;
+  flex-direction: column;
+}
+
+.top-buttons button {
+  margin: 10px 12px;
+  width: 80px;
+  height: 34px;
+}
+
+.button-container {
+  margin-left: -30px;
+}
+
+.top-buttons h1 {
+  margin-left: -16px;
+}
+
+.top-buttons button.link-filter {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reviews-img {
+height: 145px;
+}
+
+.rev {
+  padding: 20px;
+}
+
+.hostTwo--h2 {
+  margin-top: 145px;
+}
+}
+
+
+/* Tablets (portrait) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Styles for tablets */
+}
+
+/* Tablets (landscape) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Styles for tablets in landscape mode */
+}
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1025px) {
+  /* Styles for desktops and laptops */
+}
+
+/* Large screens */
+@media only screen and (min-width: 1824px) {
+  /* Styles for large screens */
+}
